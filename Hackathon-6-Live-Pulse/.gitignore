@@ -1,1 +1,38 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local databases and collection logs may contain original public-post text
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Post-level evaluation files contain original text and/or identifying context.
+# Keep these locally; share with the teacher through an approved private channel
+# or replace them with a reviewed, anonymised version before public upload.
+human_label_sheet.csv
+human_label_sheet.xlsx
+evaluation_comparison.csv
+evaluation_disagreements.csv
+model_predictions*.csv
+rail_pulse_evaluation_results.xlsx
+rail_pulse_evaluation_section.md
+
+# Local caches and editor/OS files
+.cache/
+.huggingface/
+.DS_Store
+Thumbs.db
+.vscode/
 
