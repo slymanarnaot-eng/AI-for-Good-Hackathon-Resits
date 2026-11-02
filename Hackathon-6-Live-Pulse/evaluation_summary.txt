@@ -1,0 +1,42 @@
+RAIL PULSE — HUMAN EVALUATION
+Input: human_label_sheet.csv
+Rows evaluated: 50
+Model: nlptown/bert-base-multilingual-uncased-sentiment
+Important: predictions in this run were generated on the exact post_text in the human-label CSV.
+
+Transformer model agreement: 7/50 = 14.0%
+Word-list baseline agreement: 44/50 = 88.0%
+
+PER-CLASS METRICS — TRANSFORMER
+class,support,predicted,precision,recall,f1
+negative,7,44,0.091,0.571,0.157
+neutral,41,3,0.333,0.024,0.045
+positive,2,3,0.667,1.000,0.800
+
+PER-CLASS METRICS — WORD-LIST BASELINE
+class,support,predicted,precision,recall,f1
+negative,7,1,1.000,0.143,0.250
+neutral,41,45,0.911,1.000,0.953
+positive,2,4,0.500,1.000,0.667
+
+CONFUSION MATRIX — TRANSFORMER
+Rows = human label; columns = predicted label
+human\predicted,negative,neutral,positive
+negative,4,2,1
+neutral,40,1,0
+positive,0,0,2
+
+CONFUSION MATRIX — WORD-LIST BASELINE
+Rows = human label; columns = predicted label
+human\predicted,negative,neutral,positive
+negative,1,4,2
+neutral,0,41,0
+positive,0,0,2
+
+LIMITATIONS OF THE WORD-LIST BASELINE
+This is a simple rule-based baseline, not a language model. It does not reliably understand negation, sarcasm, mixed feelings, context, or emojis. A neutral result means no listed positive/negative word was found or the hit counts tied.
+
+FILES CREATED
+- evaluation_comparison.csv
+- evaluation_disagreements.csv
+- evaluation_summary.txt
