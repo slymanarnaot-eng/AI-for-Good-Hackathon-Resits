@@ -1,0 +1,7 @@
+# Dependencies used by the Rail Pulse collector, dashboard, and evaluation.
+websockets
+transformers
+torch
+streamlit
+pandas
+plotly
