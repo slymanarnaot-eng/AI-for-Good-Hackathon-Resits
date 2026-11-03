@@ -21,7 +21,7 @@
 
 **Project title:** The Big Short: When Mortgages Go Wrong
 
-**My pair partner:** Slyman
+**My pair partner:** Rayna
 
 **Tool we had to use:** Python with scikit-learn, in a Jupyter notebook / Google Colab.
 
