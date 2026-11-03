@@ -103,7 +103,7 @@ For the resit, I reviewed the original submission and updated the README based o
 ## 4. Reflection
 
 **What is the most important thing I learned this week?**
-I learned how the different steps in ComfyUI connect. Before reviewing the workflow, I had mainly seen the finished film. Going through the saved files with Slyman helped me understand how the still images became video clips, how the narration was generated separately, and how everything came together in the final export. I can now explain the workflow in my own words.
+The most important thing I learned was how much planning is needed when using AI to create a complete project. It is not just about generating an image or video. We had to think about the story, prompts, consistency between scenes, movement, narration, timing and the final message. I also learned that AI-generated content can be useful for communication, but we still need to think about whether what we create could mislead people.
 
 **Where does this connect to "AI for Good"?**
 Reviewing The Silent Garden showed me how AI can help explain an environmental issue through a short story. Seeing a lively garden slowly go quiet gives young viewers a simple way to understand how extreme heat can affect flowers and the insects that depend on them. It also made me think about how I would share the film. I’d clearly say the garden is fictional and explain that heat is one of several pressures on pollinators.
