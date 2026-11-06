@@ -1,0 +1,5 @@
+google-genai
+pydantic
+rich
+arabic-reshaper
+python-bidi
